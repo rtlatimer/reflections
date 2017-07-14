@@ -15,7 +15,16 @@ automatically stay up-to-date with your remote repository?
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    Forks and clones are very similar in nature. The only difference is where
+    the copies of the repositories are being stored. Forking a repository
+    saves a copy of that repository to your personal GitHub page. Cloning
+    a repository stores a copy to your local repository. A branch is essentially
+    a pointer linking your various commits. Most repositories start with a master
+    branch, and every time you add a commit, a new pointer is added to the master
+    linking the most recent commit and the previous commit. You would want to add
+    a new branch if you do not want to replace your master, but still want to 
+    make changes to your repository such as changing the language or adding a new
+    feature to a game.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
