@@ -1,0 +1,45 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	Creates an empty Git repository. Specifically a .git directory with subdirectories
+	for objects, ref/heads, ref/tags, and template files. Also creates initial
+	HEAD file that references the HEAD of the master branch. 
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+	Git tracks files in the staging area, but does not track files solely in the
+	working directory. The value arises from being able to track all the changes
+	or commits made to each file that is tracked.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+	You can enter 'git diff --staged' to display the difference between the most
+	recent commit and the file that is staged.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+	
+	Branches may come in useful when creating different versions of your program.
+	Could be an easier mode for a game, changing the language of the program, or
+	a number of other changes.
+
+How do the diagrams help you visualize the branch structure?
+
+	The diagrams show the timeline of each commit for each branch, and it also
+	helps identify where particular branches merged with the master branch.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+	Merging two branches incorporates the functionality and files from both
+	branches. We represent it in the diagram to basically chart a map for the
+	program. If the program is a road, a new branch could be a fork in the road
+	that heads in a different direction, and merging the branches is essentially
+	where the roads meet back up farther down the road.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+
+	Automatic merging speeds up the process of combining and checking files,
+	but may be troublesome if the files being merged show some differences.
