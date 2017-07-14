@@ -29,7 +29,12 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    Locally storing a copy of the last known remote state can come in helpful
+    in cases of conflict. If my teammate makes a commit to a file while I am
+    working on a previous commit, I would not want to push my commit and
+    overwrite the work my teammate has done. By having a copy of the remote
+    stored locally, I can ensure I am working on the most current version
+    of my program.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
